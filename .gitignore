@@ -1,0 +1,46 @@
+node_modules/
+.next/
+out/
+.env
+.env.*
+!.env.example
+!.env.local.example
+backend/.env.*
+!backend/.env.example
+!backend/.env.local.example
+*.env
+*.pyc
+__pycache__/
+venv/
+.venv/
+.venv-local/
+*.log
+*.pid
+.idea/
+.vscode/
+.DS_Store
+coverage/
+.playwright-browsers/
+.build/
+dist/*.part
+*.csv
+*.xlsx
+storage/*
+
+# Runtime data / local database
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Build outputs (rebuild with BUILD-HANDOVER.cmd / tools/build_release.py)
+dist/
+desktop/setup/payload.zip
+frontend/tsconfig.tsbuildinfo
+
+# Temporary diagnostics and session history
+.tmp_diag/
+.remember/
+
+# Local backup copies
+*.bak*
